@@ -65,12 +65,12 @@ amount=1&deviceInfo=P2L01000000F9000289&deviceType=POS&funCode=PayResultNotify&m
 |	4	|	TRADE_CANCEL	|	交易撤销	|	通知	|
 |	5	|	TRADE_FAIL	|	交易失败	|	不进行通知	|
 |	6	|	REFUND_SUCCESS	|	退费成功	|	通知	|
-|	7	|	REFUND_FAIL	|	退费失败	|	通知	||
-
-
-
-
-
+|	7	|	REFUND_FAIL	|	退费失败	|	通知	|
+|	8	|	FREEZE_SUCCESS	|	预授权	|	通知	||
+|	9	|	PRE_AUTH_PAY_SUCCESS	|	预授权完成	|	通知	||
+|	10	|	PRE_AHTH_COMPLETE_SUCCESS	|	预授权无卡完成	|	通知	||
+|	11	|	UNFREEZE_SUCCESS	|	预授权撤销	|	通知	||
+|	12	|	PRE_AUTH_REVS_SUCCESS	|	预授权完成撤销	|	通知	|||
 
 **平台请求报文示例：**
 ```json
