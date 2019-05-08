@@ -73,6 +73,11 @@ context={
 |	**payType**	|	支付类型	|		|	C	|	支付类型：<br>BK-银行卡<br>WX-微信<br>AL-支付宝<br>YL-银联二维码	|
 |	**easyPaymentService**	|	小额双免标识	|	|	C	|	0-非小额双免，1-小额双免	|
 |	**cardType**	|	银行卡类型	|		|	C	|	00-借记卡 ，01-贷记卡	|
+|promotionDetail|优惠信息|1024|O|[{"promotion_id":"2000000056881516050","name":"微信支付到店红包",<br>"scope":"GLOBAL","type":"COUPON","amount":6,"activity_id":"9244500",<br>"wxpay_contribute":6,"merchant_contribute":0,"other_contribute":0}]||
+|bankType|银行类型|16|O|GDB_CREDIT 银行类型编码详情见微信,支付宝官方文档<br>微信参见：https://pay.weixin.qq.com/wiki/doc/api/native.php?chapter=4_2||
+|buyerLogonId|买家支付宝账号（脱敏）|64|O|184****5520||
+|buyerIdForPromotion|买家支付宝用户Uid|64|O|2088212249696681||
+|openId|用户在商户appid下的唯一标识|64|O|oEufkwAlVRcKh9k4S8Oftt8y4jQE||
 |	sign	|	签名	|	256	|	M	|	参见签名机制	|
 
 
