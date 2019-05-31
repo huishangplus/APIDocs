@@ -92,7 +92,6 @@ context = {
 	"payType": "AL",
 	"proxyId": "0025",
 	"subMerId": "99960001"
-	"shopId": ""
 }
 ```
 
