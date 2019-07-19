@@ -27,7 +27,7 @@
 |	reqDate	|	请求日期	|	8	|	M	|	yyyyMMdd	|
 |	reqTime	|	请求时间	|	6	|	M	|	HHmmss	|
 |	sign	|	签名	|	256	|	M	|	参见签名机制	|
-|	posSN	|	POSSN	|		|	O	|	POS唯一标识	|
+|	posSN	|	POSSN	|		|	C	|	POS唯一标识(如果原交易通过终端发起，必填)|
 |	shopNo	|	门店编号	|		|	O	|	门店编号	|
 |	operator	|	操作人	|		|	O	|	操作人（惠商体系，必须跟门店匹配）	|
 |	notifyUrl	|	通知地址	|	256	|	O	| 	结果通知地址. 必须以 http:// 或 https:// 开始, 支持大小写字母,数字,'/','&','%','?','=' . 暂不支持通知地址中包含其他字符,包含url编码后的结果 如%3C %3E等	|
