@@ -54,4 +54,4 @@ context="{\"applicationAppId\":\"\",\"applicationSign\":\"\",\"funCode\":\"THQUE
  **备注** 
 - 响应报文中，retCode=0000,请求退款查询成功，retCode!=0000,请求退款查询失败。
 - <span style="color:red">查询成功后，获取退款订单状态（status），根据status判定这笔退款订单成功或者失败。</span>
-- 更多返回错误代码请看[全局参数说明](单页面地址 : https://www.showdoc.cc/web/#/page/39370587223487 "全局参数说明")
+- 更多返回错误代码请看[全局参数说明](单页面地址 : http://apidocs.huishangplus.com/#/globalparamexplain "全局参数说明")

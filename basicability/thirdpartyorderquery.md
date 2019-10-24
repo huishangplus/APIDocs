@@ -91,7 +91,7 @@
 |3	| ORDER_STATE_ERROR	    |订单状态异常            |
 |4	| ORDER_NOT_EXIST	  |订单不存在      |
 
-- 更多返回错误代码请看[全局参数说明](单页面地址 : https://www.showdoc.cc/web/#/page/39370587223487 "全局参数说明")
+- 更多返回错误代码请看[全局参数说明](单页面地址 : http://apidocs.huishangplus.com/#/globalparamexplain "全局参数说明")
 
 **注意事项**
 - 若不支持或不需要重复支付，响应中outOrderId可与partnerOrderId相同，若需要支持组合支付或多次支付，则需要上送不同的支付流水号，并存在partnerOrderId字段中。 

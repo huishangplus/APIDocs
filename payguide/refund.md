@@ -70,7 +70,7 @@ context={
 |	orderDate	|	原订单日期	|		|	O	|	yyyyMMdd 	|
 
  **备注** 
-- 更多返回错误代码请看[全局参数说明](单页面地址 : https://www.showdoc.cc/web/#/page/39370587223487 "全局参数说明")
+- 更多返回错误代码请看[全局参数说明](单页面地址 : http://apidocs.huishangplus.com/#/globalparamexplain "全局参数说明")
 
 **常见问题：**
 
