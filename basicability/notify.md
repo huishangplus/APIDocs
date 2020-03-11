@@ -48,6 +48,7 @@
 |buyerIdForPromotion|买家支付宝用户Uid|64|O|2088212249696681||
 |openId|用户在商户appid下的唯一标识|64|O|oEufkwAlVRcKh9k4S8Oftt8y4jQE||
 |subOpenId|用户在子商户appid下的唯一标识|64|O|||
+|rpid|请求id，标识此次请求的唯一id，无业务含义|64|O|||
 |	sign	|	签名	|	256	|	M	|	|见下方注意事项	|
 
 **注意：** 
