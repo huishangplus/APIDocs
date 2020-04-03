@@ -24,7 +24,7 @@
 |	orderDate	|	原订单日期	|	8	|	<span style="color:red">O</span>	|	yyyyMMdd	|
 |	apiVersion	|	版本	|	3	|	M	|	定值:1.0	|
 |	sign	|	签名	|	256	|	M	|	参见签名机制	|
-|	ymfFlag	|	是否公众号或小程序下单	|		|	O	|	公众号或小程序支付必传，值为1	|
+|	ymfFlag	|	是否公众号或小程序下单	|		|	O	|	<span style="color:red">公众号或小程序支付必传，值为1</span>	|
 |	shopNo	|	门店编号	|		|	O	|	门店编号	|
 |	operator	|	操作人	|		|	O	|	操作人（惠商体系，必须跟门店匹配）	|
 
