@@ -4,6 +4,9 @@
 
 - 商户->联动优势
 - 平台对商户的支付请求数据处理完成后，响应为非明确状态。如：[全局错误码中](https://www.showdoc.cc/web/#/6234326490827?page_id=39370587223487 "全局参数说明中")“01000000”、“02000000”、“03000000”三种返回码的情况下，需要调用同步接口，请求银行查询最终结果。
+- 商户调用此接口推荐要添加调用次数或调用时长的限制，推荐每次调用间隔时间为3s。
+
+
 
 **请求URL：** 
 `https://mofunapi.umfintech.com/in-pay-client/api/apisync`
@@ -24,7 +27,7 @@
 |	orderDate	|	原订单日期	|	8	|	<span style="color:red">O</span>	|	yyyyMMdd	|
 |	apiVersion	|	版本	|	3	|	M	|	定值:1.0	|
 |	sign	|	签名	|	256	|	M	|	参见签名机制	|
-|	ymfFlag	|	是否公众号或小程序下单	|		|	O	|	公众号或小程序支付必传，值为1	|
+|	ymfFlag	|	是否公众号或小程序下单	|		|	O	|	<span style="color:red">公众号或小程序支付必传，值为1</span>	|
 |	shopNo	|	门店编号	|		|	O	|	门店编号	|
 |	operator	|	操作人	|		|	O	|	操作人（惠商体系，必须跟门店匹配）	|
 
