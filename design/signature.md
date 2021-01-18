@@ -176,7 +176,7 @@ context = {
 使用公钥对待验签串进行验签，判断结果是否和
 "sign" = "XhPuNulwDfXtf...QSndYpvgs8="的值一致
 
-联动优势提供了java、PHP等编程语言的示例代码（[点击下载][点击下载]）下载密码（1xzx）
+联动优势提供了java、PHP等编程语言的示例代码（[点击下载][点击下载]）下载密码（vb2h）
 
 
-[点击下载]: https://pan.baidu.com/s/1nOhp6phwvNuoqF0WfRrBPQ "点击下载"
+[点击下载]: https://pan.baidu.com/s/1uC9_MbKXxeb7GJQuU_6pug "点击下载"
