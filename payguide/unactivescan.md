@@ -77,7 +77,10 @@ context={
 |	platTime	|	平台时间	|	6	|	M	|	平台时间HHmmss（打印小票使用）	|
 |	partnerOrderId	|	商户订单号	|	32	|	M	|	订单号	|
 |	sign	|	签名	|	256	|	M	|	参见签名机制	|
-
+|buyerLogonId|买家支付宝账号（脱敏）|64|O|184****5520||
+|buyerIdForPromotion|买家支付宝用户Uid|64|O|2088212249696681||
+|openId|用户在商户appid下的唯一标识|64|O|oEufkwAlVRcKh9k4S8Oftt8y4jQE||
+|subOpenId|用户在子商户appid下的唯一标识|64|O|||
 
  **备注** 
 - 更多返回错误代码请看[全局参数说明](单页面地址 : http://apidocs.huishangplus.com/#/globalparamexplain "全局参数说明")
