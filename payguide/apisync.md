@@ -30,7 +30,10 @@
 |	ymfFlag	|	是否公众号或小程序下单	|		|	O	|	<span style="color:red">公众号或小程序支付必传，值为1</span>	|
 |	shopNo	|	门店编号	|		|	O	|	门店编号	|
 |	operator	|	操作人	|		|	O	|	操作人（惠商体系，必须跟门店匹配）	|
-
+|buyerLogonId|买家支付宝账号（脱敏）|64|O|184****5520||
+|buyerIdForPromotion|买家支付宝用户Uid|64|O|2088212249696681||
+|openId|用户在商户appid下的唯一标识|64|O|oEufkwAlVRcKh9k4S8Oftt8y4jQE||
+|subOpenId|用户在子商户appid下的唯一标识|64|O|||
  **YmfPay商户请求报文示例**
 
 ```json
@@ -82,6 +85,9 @@ context={
 |buyerIdForPromotion|买家支付宝用户Uid|64|O|2088212249696681||
 |openId|用户在商户appid下的唯一标识|64|O|oEufkwAlVRcKh9k4S8Oftt8y4jQE||
 |	sign	|	签名	|	256	|	M	|	参见签名机制	|
+|	<span style="color:red">userId</span>	|	用户唯一编码	|	128	|	O	|	用户唯一编码	| |
+|	<span style="color:red">terminalIp</span>	|	绑卡设备（付款APP）所在的公网IP	|	64	|	O	|	绑卡设备（付款APP）所在的公网IP，可用于定位所属地区，不是wifi连接时的局域网IP。局域网IP包括：A类：10.0.0.0-10.255.255.255 B类：172.16.0.0-172.31.255.255 C类：192.168.0.0-192.168.255.255	| |
+|	<span style="color:red">terminalLocation</span>	|	（付款APP）设备GPS位置	|	32	|	O	|	（付款APP）设备GPS位置，格式为纬度/经度，+表示北纬、东经，-表示南纬、西经。	| |
 
 
  **备注** 
