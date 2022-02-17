@@ -37,6 +37,7 @@
 |	<span style="color:red">location</span>	|	受理终端设备实时经纬度信息	|	32	|	O	|	受理终端设备实时经纬度信息，格式为纬度/经度，+表示北纬、东经，-表示南纬、西经。+37.12/-121.213,超过字段长度截断	| |
 |	<span style="color:red">deviceIp</span>	|	商户端终端设备IP地址	|	40	|	O	|	商户端终端设备IP地址	| |
 |	<span style="color:red">networkLicense</span>	|	银行卡受理终端产品应用认证编号	|	5	|	O	|	银行卡受理终端产品应用认证编号。该编号由“中国银联标识产品企业资质认证办公室”为通过入网认证的终端进行分配。银联直连终端必填。格式：5位字符，例如P3100	| |
+|	<span style="color:red">deviceType</span>	|	设备类型	|	2	|	O	|	取值范围：（终端注销时非必填）取值 取值说明：01 自动柜员机（含 ATM 和 CDM）和多媒体自助终端、02 传统 POS、03 mPOS、04 智能 POS、05 II 型固定电话、06 云闪付终端、07 保留使用、08 手机 POS、09 刷脸付终端、10 条码支付受理终端、11 辅助受理终端、12行业终端（公交、地铁用于指定行业的终端）、13 MIS 终端	| |
 |	<span style="color:red">deviceId</span>	|	设备id	|	8	|	O	|	设备id	| |
 |	<span style="color:red">encryptRandNum</span>	|	加密随机因子	|	10	|	O	|	加密随机因子，仅在被扫支付类交易报文中出现：若付款码为19位数字，则取后6位；若付款码码为EMV二维码，则取其tag57的卡/token号的后6位	| |
 |	<span style="color:red">secretText</span>	|	密文数据	|	16	|	O	|	密文数据，仅在被扫支付类交易报文中出现：64bit的密文数据，对终端硬件序列号和加密随机因子加密后的结果。本子域取值为：64bit密文数据进行base64编码后的结果。	| |
@@ -57,6 +58,7 @@
 |	<span style="color:red">telecomNetId</span>	|	电信网络识别码	|	4	|	O	|	电信网络识别码，NID（电信），电信网络识别码,由电信各由地级分公司分配。每个地级市可能有1到3个NID	| |
 |	<span style="color:red">telecomLbs</span>	|	电信基站	|	4	|	O	|	电信基站，BID（电信），电信网络中的小区识别码，等效于基站	| |
 |	<span style="color:red">telecomLbsSignal</span>	|	电信基站信号	|	4	|	O	|	电信基站信号，SIG（电信），16进制	| |
+|	<span style="color:red">areaInfo</span>	|	地区信息	|	6	|	O	|	商户所在地地区信息，6 位定长，精确到区县编码维度，与国家统计局一致。注：取值范围可参考《省市区结构说明》	| |
 
 
  **商户请求报文示例**
